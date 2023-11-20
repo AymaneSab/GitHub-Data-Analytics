@@ -1,41 +1,45 @@
 # GitHub Data Analytics with Monte Carlo Code
 
-Ce projet vise à explorer et extraire des informations significatives à partir des données de GitHub en utilisant des techniques statistiques et exploratoires, avec une implémentation en langage Monte Carlo (MC) code.
+![Alt text](https://repository-images.githubusercontent.com/239144850/641e4b2f-c870-4899-967a-5120907611b4)
 
-## Objectif du Projet
+This project aims to explore and extract meaningful information from GitHub data using statistical and exploratory techniques, with an implementation in the Monte Carlo (MC) code.
 
-L'objectif principal de ce projet est de fournir une analyse approfondie des données GitHub, permettant aux utilisateurs de comprendre les tendances de développement, d'identifier les contributeurs les plus actifs, d'évaluer la popularité des projets, et de détecter les relations entre les différents projets hébergés sur la plateforme.
+## Project Structure 
 
-## Fonctionnalités Principales
+## Project Objective
 
-1. **Analyse des Tendances Temporelles :** Explorez comment le développement des projets GitHub a évolué au fil du temps en utilisant des méthodes statistiques.
+The main goal of this project is to provide in-depth analysis of GitHub data, enabling users to understand development trends, identify the most active contributors, evaluate project popularity, and detect relationships between different projects hosted on the platform.
 
-2. **Identification des Contributeurs Actifs :** Identifiez les contributeurs les plus actifs sur différents projets, en mettant en lumière leur impact dans la communauté open source.
+## Key Features
 
-3. **Évaluation de la Popularité des Projets :** Utilisez des métriques pour évaluer la popularité des projets, telles que le nombre d'étoiles, de forks, et d'issues résolues.
+1. **Temporal Trends Analysis:** Explore how GitHub project development has evolved over time using statistical methods.
 
-4. **Détection des Relations entre les Projets :** Explorez les liens et les dépendances entre les projets GitHub pour comprendre comment ils interagissent les uns avec les autres.
+2. **Identification of Active Contributors:** Identify the most active contributors on different projects, highlighting their impact in the open-source community.
 
-## Utilisation du Code Monte Carlo
+3. **Evaluation of Project Popularity:** Use metrics to assess project popularity, such as the number of stars, forks, and resolved issues.
 
-Le langage Monte Carlo (MC) code a été choisi pour son efficacité dans la simulation de comportements aléatoires, ce qui peut être utile dans l'analyse de certaines caractéristiques des données GitHub.
+4. **Detection of Project Relationships:** Explore links and dependencies between GitHub projects to understand how they interact with each other.
 
-### Exemple d'Utilisation :
+## Using Monte Carlo Code
+
+The Monte Carlo (MC) code language was chosen for its efficiency in simulating random behaviors, which can be useful in analyzing certain characteristics of GitHub data.
+
+### Example Usage:
 
 ```mc
 import github_data_analytics as gda
 
-# Charger les données GitHub
-data = gda.load_github_data("nom_utilisateur/nom_projet")
+# Load GitHub data
+data = gda.load_github_data("username/project_name")
 
-# Analyser les tendances temporelles
+# Analyze temporal trends
 trend_analysis = gda.perform_temporal_analysis(data)
 
-# Identifier les contributeurs actifs
+# Identify active contributors
 active_contributors = gda.identify_active_contributors(data)
 
-# Évaluer la popularité du projet
+# Evaluate project popularity
 popularity_metrics = gda.evaluate_project_popularity(data)
 
-# Détecter les relations entre les projets
+# Detect project relations
 project_relations = gda.detect_project_relations(data)

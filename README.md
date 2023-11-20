@@ -6,6 +6,39 @@ This project aims to explore and extract meaningful information from GitHub data
 
 ## Project Structure 
 
+```
+github-data-analytics-mc/
+|-- data/
+|   |-- raw/
+|       |-- README.md (expliquer comment obtenir les données)
+|-- notebooks/
+|   |-- exploratory_analysis.ipynb
+|   |-- trend_analysis.ipynb
+|   |-- contributor_analysis.ipynb
+|   |-- popularity_evaluation.ipynb
+|   |-- project_relations.ipynb
+|-- src/
+|   |-- __init__.py
+|   |-- github_data_analytics/
+|       |-- __init__.py
+|       |-- loader.py
+|       |-- temporal_analysis.py
+|       |-- contributor_analysis.py
+|       |-- popularity_evaluation.py
+|       |-- project_relations.py
+|-- tests/
+|   |-- test_loader.py
+|   |-- test_temporal_analysis.py
+|   |-- test_contributor_analysis.py
+|   |-- test_popularity_evaluation.py
+|   |-- test_project_relations.py
+|-- .gitignore
+|-- README.md
+|-- requirements.txt
+|-- LICENSE
+|-- setup.py
+```
+
 ## Project Objective
 
 The main goal of this project is to provide in-depth analysis of GitHub data, enabling users to understand development trends, identify the most active contributors, evaluate project popularity, and detect relationships between different projects hosted on the platform.
